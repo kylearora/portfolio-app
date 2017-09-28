@@ -7,11 +7,12 @@ class About extends Component {
         <div className="test">
           <h2>This is a very basic React app with minimal styling that uses React Routes. </h2>
         </div>
-        <div classname>
+        <div className="">
           <h2>Designed by Kyle Arora </h2>
         </div>
-        <div className="headShotDiv">
-          <img className="headShot" src="https://i.imgur.com/1m6kush.png" alt="kyle pic"></img>
+
+        <div className="bio">
+          <h4>Kyle Arora is an aspiring web developer and currently learning to program at The Iron Yard. He is also an alumnus from RICE University, earning his MBA in 2016.</h4>
         </div>
       </div>
     )

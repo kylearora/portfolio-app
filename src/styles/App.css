@@ -2,7 +2,30 @@ nav {
   font-family: noteworthy;
   display: flex;
   justify-content: center;
-  font-size: 25px
+  align-items: center;
+  font-size: 25px;
+  margin-top: 1em;
+  height: 3em;
+  border: 1px solid black;
+}
+
+nav a.active {
+  background-color: #3AEB7A;
+  border-radius: 5px;
+  border: 1px solid black;
+  color: white;
+  text-decoration: none;
+  padding: .3em;
+}
+
+nav a:hover {
+  background-color: #3AEB7A;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: .3em;
+
 }
 
 .navLink {
@@ -34,11 +57,51 @@ nav {
   margin-top: 2em;
 }
 
+.referencesDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+  widows: 700px;
+}
+
+.reference {
+  width: 700px;
+}
+
+.bio  {
+  width: 600px;
+  margin-top: 1em;
+  text-align: center;
+}
+
 .headShotDiv{
   margin-top: 2em;;
 }
 
 .headShot {
+  height: 400px;
+  width: 400px;
   border: 5px solid black;
   border-radius: 50%;
+}
+
+.contactPage {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3em;
+}
+
+.contactInfo {
+  margin-top: 2em;
+}
+
+label {
+  margin-top: 20px;
+}
+.reference {
+  text-align: center;
 }

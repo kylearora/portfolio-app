@@ -1,20 +1,25 @@
 import React, {Component} from 'react'
-import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 
 
 class BaseLayout extends Component {
+
   render() {
     return (
       <div>
           <nav>
-            <Link className="navLink" to="/">Home</Link>
+            <NavLink className="navLink" exact to="/">Home</NavLink>
 
-            <Link className="navLink" to="/about">About</Link>
+            <NavLink className="navLink" to="/about">About</NavLink>
 
-            <Link className="navLink" to="/portfolio">Portfolio</Link>
+            <NavLink className="navLink" to="/portfolio">Portfolio</NavLink>
+
+            <NavLink className="navLink" to="/contact">Contact</NavLink>
+
+            <NavLink className="navLink" to="/references">References</NavLink>
           </nav>
 
-          {this.props.children}
+      {this.props.children}
     </div>
     )
   }

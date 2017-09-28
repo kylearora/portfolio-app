@@ -1,9 +1,16 @@
 import React, {Component} from 'react'
+import Helmet from 'react-helmet'
 
 class About extends Component {
   render() {
     return (
       <div className = "aboutDiv">
+
+        <Helmet>
+          <title>About</title>
+        </Helmet>
+
+
         <div className="test">
           <h2>This is a very basic React app with minimal styling that uses React Routes. </h2>
         </div>

@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import Helmet from 'react-helmet'
 
 class Contact extends Component {
 constructor(props) {
@@ -23,6 +24,10 @@ componentDidMount() {
   render() {
     return (
     <div className="contactPage">
+
+      <Helmet>
+        <title>Contact</title>
+      </Helmet>
 
       <div className="headShotDiv">
         <img className="headShot" src="https://i.imgur.com/1m6kush.png" alt="kyle pic"></img>
